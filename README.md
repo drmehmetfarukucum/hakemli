@@ -1,4 +1,4 @@
-# Hakemli — Akademik Metin Yazım Destek Sistemi
+# Hakemli — Tez ve makale için denetimli yazım
 
 [![Lisans: MIT](https://img.shields.io/badge/lisans-MIT-3d434d)](LICENSE)
 [![Claude Skill](https://img.shields.io/badge/Claude_Skill-3d434d)](SKILL.md)
