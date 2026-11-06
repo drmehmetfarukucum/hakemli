@@ -4,7 +4,7 @@ description: Tez, makale veya derleme çalışmasını çok oturumlu yazar–den
 argument-hint: "Konu veya taslak başlık (isteğe bağlı)"
 ---
 
-# Hakemli — tez ve makale için denetimli yazım
+# Hakemli — Tez ve Makale İçin Denetimli Yazım
 
 Bu skill, `references/protokol.md` dosyasındaki protokolü başlatır. Protokol bağlayıcıdır; bu dosya yalnız başlangıç adımlarını verir.
 
