@@ -1,0 +1,49 @@
+{
+  "_aciklama": "ÖRNEK: Numaralı (Vancouver) atıflı, IMRaD yapılı bir dergi makalesi taslağı. Kapak ve ön kısım yok; başlık metnin başında; kaynakça atıf sırasıyla numaralı tek liste. Değerler yaygın bir dergi gönderim biçimidir (12 punto, çift aralık, 2,5 cm); hedef derginin yazar kılavuzuna göre değiştirin. Ana metinde atıflar [@anahtar] biçimindedir; birim ve ana kaynakçada her girdi '- [@anahtar] Künye' diye başlar.",
+  "_alanlar": {
+    "bicim.atif.tur": "numarali (bu örnek) | yazar_tarih (APA 7: metinde [@a] → (Smith, 2020); İngilizce örnek: ayarlar.ornek_makale_apa_en.json) | dipnot",
+    "bicim.atif.ve / vd / yil_yok": "yalnız yazar_tarih: bağlaç, 'et al.' karşılığı ve yılsız eser; Türkçe çalışmada 've', 'vd.', 't.y.' (verilmezse belge diline göre)",
+    "bicim.atif.vd_esigi / yazar_yil_ayraci / coklu_ayrac": "yalnız yazar_tarih: bu sayıda ve üstünde yazar 'vd.' (varsayılan 3), yazar ile yıl arası (varsayılan ', '; Chicago ' '), atıflar arası (varsayılan '; ')",
+    "bicim.calisma_notlari": "false: birim sonu 'Kaynak kontrolü' ve 'Araştırma notu' basılmaz (teslim sürümü); true: basılır (ara sürüm)",
+    "bicim.ozet_dilleri": "basılacak özetler: ['tr', 'en']; yalnız İngilizce özet isteyen dergide ['en']"
+  },
+  "tarih": "2026-01-01",
+  "_durum": "geçici — dergi seçilmedi; değerler yaygın bir gönderim biçimidir, yazar kılavuzu okununca güncelleyin",
+  "taslak_notu": "TASLAK ({tarih_metin}) — geçici biçim",
+  "ana_metin": "calisma/Ana metin.md",
+  "birim_klasoru": "calisma/bolumler",
+  "giris_birim_kodu": "G",
+  "cikti_klasoru": "calisma/cikti",
+  "cikti_adi": "Makale_taslak_{tarih}",
+  "kayit_klasoru": "calisma/cikti/uretim_kaydi",
+  "kaynakca_eslestirme": "calisma/_araclar/kaynakca_eslestirme.json",
+  "icindekiler_duzeyleri": "1-3",
+  "bicim": {
+    "sayfa_cm": { "genislik": 21.0, "yukseklik": 29.7 },
+    "kenar_cm": { "ust": 2.5, "alt": 2.5, "sol": 2.5, "sag": 2.5, "ustbilgi": 1.25, "altbilgi": 1.25 },
+    "yazi_tipi": "Times New Roman",
+    "dil": "tr-TR",
+    "metin": { "punto": 12, "satir_carpani": 2.0, "once_nk": 0, "sonra_nk": 0, "girinti_cm": 1.0, "iki_yana": false },
+    "dipnot": { "punto": 10, "satir_nk": 12, "iki_yana": false },
+    "bolum_basligi": { "punto": 12, "once_nk": 12, "sonra_nk": 6, "yeni_sayfa": false, "buyuk_harf": false },
+    "alt_baslik": { "punto": 12, "once_nk": 6, "sonra_nk": 3 },
+    "sayfa_numarasi_punto": 10,
+    "tablo_punto": 10,
+    "baslik_numaralandirma": "serbest",
+    "kapaklar": false,
+    "on_kisim": [],
+    "on_kisim_basliklari": { "ozet": "Özet", "abstract": "Abstract", "kaynakca": "Kaynaklar" },
+    "ozet_metin_basinda": true,
+    "ozet_dilleri": ["tr", "en"],
+    "calisma_notlari": false,
+    "ana_metin_bolumleri": { "giris": "Giriş", "kaynakca": "Kaynaklar" },
+    "kaynakca_kategorileri": [],
+    "atif": { "tur": "numarali", "numara_bicimi": "[{n}]", "kaynakca_numara_bicimi": "{n}. " }
+  },
+  "kapak": {},
+  "bolumler": [
+    {"etiket": null, "plan_adi": "Yöntem", "baslik": "Yöntem", "birimler": [{"kod": "Y", "kisimlar": "I"}]},
+    {"etiket": null, "plan_adi": "Bulgular", "baslik": "Bulgular", "birimler": [{"kod": "B", "kisimlar": "I"}]},
+    {"etiket": null, "plan_adi": "Tartışma", "baslik": "Tartışma", "birimler": [{"kod": "T", "kisimlar": "I"}]}
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "_aciklama": "surec_denetimi.py ayarları. Bu dosya bir ÖRNEKTİR (IMRaD yapılı, numaralı atıflı bir makale, hafif mod). Kurulumda projeye göre değiştirilir. Yollar betiğin klasörüne (_araclar) göredir. '_' ile başlayan anahtarlar açıklamadır, betik okumaz; başka tanınmayan anahtar (ör. yazım hatası) kırmızı madde olur. Bozuk JSON veya yanlış tipte değer betiği çıkış kodu 2 ile durdurur.",
+  "_alanlar": {
+    "cikti_klasoru": "Çıktı klasörü; _araclar'ın bir üstü (\"..\") varsayılandır.",
+    "ana_metin": "Ana metin dosyası, çıktı klasörüne göre. Dosya yoksa veya boşsa birleştirilmiş birim varken kırmızı, yokken not.",
+    "giris_kodu": "Giriş biriminin kodu; ilerleme.md'de satırı aranır.",
+    "birimler": "Birim kodu → bolumler/ altındaki dosya adı. Sıra rapordaki sıradır. Boşsa (plan onayından önce) rapora not düşülür. ilerleme.md'de satırı ve dosyası olmayan birim 'planlanmamış' notuyla listelenir.",
+    "bolumler": "Ana metindeki '## <ad>' başlığı → o bölümün birim kodları (liste). Bölüm hacim sınırı birimlerin toplamıdır.",
+    "surec_raporu": "Birleştirilmiş bölüm → aranan süreç raporu (denetim/surec_denetimi_<ad>.md). Hafif modda boş bırakılır.",
+    "rapor_kaliplari": "Birimin denetim raporları; yalnız {kod} yer tutucusu, '*' tur numarasıdır. Kabul edilen birimde her kalıptan en az bir rapor, 'denetimde (tur n)' veya 'revizyonda (tur n)' durumunda '*' yerine n konmuş iki rapor aranır (denetimde eksikse not, revizyonda kırmızı; revizyonda ayrıca denetim/revizyon_kararlari.md'de '## <BİRİM>, tur n' kaydı aranır). Dolu çerçeve notunun raporları aynı kalıplarla {kod} = CN olarak aranır.",
+    "rapor_bitis_isareti": "Denetim raporunun son satırı. Kabul edilmiş veya revizyondaki birimin raporunda bu satır yoksa rapor yarım sayılır (kırmızı). null: denetlenmez.",
+    "kabul_kaydi": "Karar defterinde aranan kabul ifadesi; yalnız {kod} yer tutucusu. HTML yorumları aranmaz. kabul_kaydi_ozel ile birim başına değiştirilebilir.",
+    "hacim": "null ise yazim_kilavuzu.md içindeki kilavuz_hacim_bolumu başlıkları arasındaki tablodan okunur; birim adına benzeyen ama okunamayan satır kırmızıdır. Doğrudan vermek için: {\"G\": [alt, üst, atıf_sınırı], …} (her girdi üç sayı).",
+    "atif_turu": "\"dipnot\" ([^önek-n] ve tanımları) veya \"anahtar\" (numaralı ve yazar–tarih sistemlerin ikisi de: [@a], [@a; @b], [@a, s. 12], yalnız yıl [-@a]; tanımlar yalnız '### Birim kaynakçası (<BİRİM>)' kısmında '- [@a] Künye'). Başka değer hatadır. Seçilen türe uymayan işaret metinde kalırsa kırmızıdır.",
+    "ic_dil": "Metne girmemesi gereken iç yönetim dili kalıpları (düzenli ifade; derlenemeyen kalıp hatadır). ic_dil_birim_kodlari true ise iki harf ve üstü birim kodları da eklenir.",
+    "eski_kalip": "Kullanıcının yasakladığı eski kalıplar (düzenli ifade).",
+    "cumle": "Ortalama cümle hedefi ve uzun cümle eşiği (kelime; sayı). Paragraflar boş satırla ayrılır; satır kaydırma ölçümü değiştirmez.",
+    "kisaltmalar": "Cümle ayırıcının noktasından bölmeyeceği kısaltmalar. Verilirse varsayılan listenin yerine geçer (varsayılanda Türkçe kısaltmalar ve e.g, i.e, et al, vs, cf, approx, Fig, Eq, No var).",
+    "ana_metin_baslangic": "Ana metinde ölçümün başladığı başlık (satır başında aranır). Yoksa kırmızı.",
+    "ana_metin_bitis": "Ana metinde ölçümün bittiği başlık; anahtarlı sistemde ana kaynakça bunun altındadır. Yoksa kırmızı.",
+    "ilerleme": "ilerleme.md başlıkları; iskeletteki adlarla aynı kalmalıdır."
+  },
+  "_ingilizce_ic_dil_ornegi": {
+    "_not": "İngilizce yazılan çalışmada bu listeyi 'ic_dil' alanına kopyalayın. Türkçe varsayılan kalıplar o zaman kullanılmaz; gerekenleri ekleyin.",
+    "ic_dil": ["\\b[Oo]rchestrat", "\\b[Aa]uditor", "\\b[Dd]ecision log", "\\b[Hh]andoff note", "\\b[Uu]nit code", "\\bK-\\d{3}[a-z]?\\b"]
+  },
+  "cikti_klasoru": "..",
+  "ana_metin": "Ana metin.md",
+  "giris_kodu": "G",
+  "birimler": {
+    "G": "G_giris.md",
+    "Y": "Y_yontem.md",
+    "B": "B_bulgular.md",
+    "T": "T_tartisma.md"
+  },
+  "bolumler": {
+    "Giriş": ["G"],
+    "Yöntem": ["Y"],
+    "Bulgular": ["B"],
+    "Tartışma": ["T"]
+  },
+  "surec_raporu": {},
+  "rapor_kaliplari": ["{kod}_kaynak_tur*.md", "{kod}_alan_tur*.md"],
+  "rapor_bitis_isareti": "<!-- RAPOR SONU -->",
+  "kabul_kaydi": "{kod} kabul",
+  "kabul_kaydi_ozel": {},
+  "hacim": null,
+  "kilavuz_hacim_bolumu": ["### 6.2", "### 6.3"],
+  "takma_adlar": {"Giriş": "G", "Yöntem": "Y", "Bulgular": "B", "Tartışma": "T"},
+  "atif_turu": "anahtar",
+  "ic_dil_birim_kodlari": true,
+  "eski_kalip": [],
+  "cumle": {"ort_alt": 15, "ort_ust": 25, "uzun": 35},
+  "ana_metin_baslangic": "## Giriş",
+  "ana_metin_bitis": "## Kaynaklar"
+}

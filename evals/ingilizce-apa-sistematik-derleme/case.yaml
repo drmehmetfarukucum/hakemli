@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: ingilizce-apa-sistematik-derleme
+expected_outcome: |
+  Skill tetiklenir ve Aşama 0 sorularıyla başlar. Sistematik derleme için ara düzeni (hafif mod, iki denetim turu, yöntem denetçisi) önerir.
+  Sistematik tarama akışını (protokol § J: PROSPERO, arama günlüğü, iki bağımsız eleme, PRISMA sayılarının dosyadan üretilmesi) gündeme getirir.
+  APA 7 yazar–tarih atfını desteklenen bir seçenek olarak kabul eder; Vancouver'a zorlamaz.

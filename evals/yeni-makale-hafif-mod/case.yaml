@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: yeni-makale-hafif-mod
+expected_outcome: |
+  Araştırmaya ve dosya kurulumuna başlamadan Aşama 0 sorularını turlar hâlinde, her soruda bir öneriyle sorar.
+  Kullanıcının verdiği bilgileri (tür, dil, konu, derginin belli olmaması) yeniden sormaz.
+  Tur 2'de mod sorusunda hafif modu önerir. Dergi adı önermez; aday dergilerin Aşama 1'de bulunacağını söyler.

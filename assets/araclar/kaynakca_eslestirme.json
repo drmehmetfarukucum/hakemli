@@ -1,0 +1,5 @@
+{
+  "_aciklama": "Kaynakça tekilleştirmesinde elle verilen kararlar (yalnız dipnotlu sistemde; numaralı sistemde eşleştirme anahtara göredir). Otomatik birleştirme yalnız birebir aynı metinde veya güçlü bir kimlikte (DOI, ISBN, YÖK Tez No., kanun numarası, E./K. numarası, başvuru numarası, BM belge simgesi, aynı yazar + başlık + yıl, aynı bağlantı) yapılır. 'birlestir': her grup, 'girdiler'deki parçalardan birini içeren bütün künyeleri tek künyede birleştirir; görünen künye 'temsilci' parçasını içeren künyedir. 'ayri_tut': iki parçayı içeren künyeler otomatik birleşecek olsalar bile ayrı tutulur. Örnek grup: {\"gerekce\": \"Aynı rapor; künyeler yalnız sayfada farklı\", \"girdiler\": [\"DSÖ 2022, s. 4\", \"DSÖ 2022, s. 9\"], \"temsilci\": \"DSÖ 2022, s. 4\"}",
+  "birlestir": [],
+  "ayri_tut": []
+}

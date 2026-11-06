@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: dosyasiz-devam-et
+expected_outcome: |
+  Çalışma klasöründe `_yonetim/` klasörü yoktur. Skill projeyi `find` ile arar, bulamaz ve yeni bir çalışma başlatmak yerine projenin hangi klasörde olduğunu sorar.
+  Aşama 0 sorularına geçmez ve hiçbir dosya oluşturmaz.

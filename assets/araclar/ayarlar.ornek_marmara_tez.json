@@ -1,0 +1,60 @@
+{
+  "_aciklama": "ÖRNEK: Marmara Üniversitesi SBE 'Lisansüstü Tez ve Proje Yazım Kılavuzu'na göre dipnotlu bir hukuk tezi (kurallar ve sapmalar: ornek_marmara_bicim_kurallari.md). Kullanmak için bu dosyayı ayarlar.json adıyla kopyalayın; 'bicim' alanını KENDİ kurumunuzun kılavuzunun resmî metnine göre değiştirin. Yollar proje köküne göredir (varsayılan kök: _araclar'ın iki üstü; 'proje_koku' ile değiştirilebilir). Her ara sürümde genellikle yalnız 'tarih' ve 'taslak_notu' değişir; ikisi komut satırından da verilir. Ana metinde '## <plan_adi> — <başlık>' olarak birleştirilmiş bölümler ana metinden, henüz birleştirilmemiş bölümler 'birim_klasoru' içindeki birim dosyalarından okunur.",
+  "tarih": "2026-01-01",
+  "taslak_notu": "TASLAK — ara sürüm ({tarih_metin}). Giriş ve Birinci Bölüm iki bağımsız denetimden geçmiş ve ana metinde birleştirilmiştir.",
+  "ana_metin": "calisma/Ana metin.md",
+  "birim_klasoru": "calisma/bolumler",
+  "giris_birim_kodu": "G",
+  "cikti_klasoru": "calisma/cikti",
+  "cikti_adi": "Ara_surum_{tarih}",
+  "kayit_klasoru": "calisma/cikti/uretim_kaydi",
+  "kaynakca_eslestirme": "calisma/_araclar/kaynakca_eslestirme.json",
+  "icindekiler_duzeyleri": "1-4",
+  "bicim": {
+    "sayfa_cm": { "genislik": 21.0, "yukseklik": 29.7 },
+    "kenar_cm": { "ust": 2.5, "alt": 2.5, "sol": 2.5, "sag": 2.5, "ustbilgi": 1.5, "altbilgi": 1.5 },
+    "yazi_tipi": "Times New Roman",
+    "dil": "tr-TR",
+    "metin": { "punto": 11, "satir_carpani": 1.6, "once_nk": 6, "sonra_nk": 6, "girinti_cm": 1.25, "iki_yana": true },
+    "dipnot": { "punto": 9, "satir_nk": 12, "iki_yana": true },
+    "bolum_basligi": { "punto": 12, "once_nk": 30, "sonra_nk": 30, "yeni_sayfa": true, "buyuk_harf": true },
+    "alt_baslik": { "punto": 12, "once_nk": 15, "sonra_nk": 1.5 },
+    "sayfa_numarasi_punto": 10,
+    "tablo_punto": 10,
+    "baslik_numaralandirma": "hukuk",
+    "kapaklar": true,
+    "on_kisim": ["ozet", "abstract", "onsoz", "icindekiler", "kisaltmalar", "okuma_notu"],
+    "ozet_kelime_siniri": 250,
+    "calisma_notlari": true,
+    "durum_tarihi_etiketi": "Hukuki durum tarihi",
+    "kaynakca_kategorileri": ["Mevzuat", "Yargı kararları", "Kitaplar, tezler ve makaleler", "Diğer belgeler"],
+    "kaynakca_siralama": "alfabetik",
+    "atif": { "tur": "dipnot" }
+  },
+  "kapak": {
+    "kurum": ["T.C.", "MARMARA ÜNİVERSİTESİ", "SOSYAL BİLİMLER ENSTİTÜSÜ"],
+    "anabilim_dali": "[Anabilim Dalı] ANA BİLİM DALI",
+    "program": "[Program] DOKTORA / YÜKSEK LİSANS PROGRAMI",
+    "tez_turu": "[Doktora Tezi / Yüksek Lisans Tezi]",
+    "ogrenci": "[Öğrencinin Adı Soyadı]",
+    "yer_yil": "İstanbul, [Yıl]",
+    "juri_basligi": "Tez Savunma Jürisi",
+    "juri": [
+      ["1. Tez Danışmanı", "[Danışman]"],
+      ["2. Üye", "[Jüri Üyesi]"],
+      ["3. Üye", "[Jüri Üyesi]"],
+      ["(Doktora öğrencisi için)", ""],
+      ["4. Üye", "[Jüri Üyesi]"],
+      ["5. Üye", "[Jüri Üyesi]"]
+    ],
+    "ingilizce_baslik": "[English title]"
+  },
+  "bolumler": [
+    {"etiket": "BİRİNCİ BÖLÜM", "plan_adi": "Birinci Bölüm", "baslik": "[Birinci bölümün başlığı]",
+     "birimler": [{"kod": "B1a", "kisimlar": "I–II"}, {"kod": "B1b", "kisimlar": "III–IV"}]},
+    {"etiket": "İKİNCİ BÖLÜM", "plan_adi": "İkinci Bölüm", "baslik": "[İkinci bölümün başlığı]",
+     "birimler": [{"kod": "B2a", "kisimlar": "I–III"}]},
+    {"etiket": null, "plan_adi": "Sonuç ve Öneriler", "baslik": "Sonuç ve Öneriler",
+     "birimler": [{"kod": "S", "kisimlar": "I–III"}]}
+  ]
+}
