@@ -7,7 +7,9 @@
 
 Hakemli, tez, makale ve derleme yazımını Claude ile, hakemli bir derginin işleyişine benzer bir düzende yürüten bir Claude skill'idir. Metni bir orkestratör planlar; birimleri ayrı yazarlar yazar; her birimi birbirini görmeyen iki denetçi okur. Kaynak denetçisi her atfı kaynağından açar, alan denetçisi analizi ve dili denetler. Kararlar ve durum dosyalarda tutulur, bu yüzden çalışma günlerce ve birçok oturum boyunca kaldığı yerden sürer.
 
-Çıkış noktası 72 bin kelimelik gerçek bir hukuk incelemesidir; oradaki her hata bir kurala dönüştü. Halk sağlığı başta olmak üzere tıp, sosyal bilimler ve tarih için de uyarlamaları vardır.
+Skill, 72 bin kelimelik gerçek bir hukuk incelemesi yazılırken geliştirildi; orada karşılaşılan her hata için yeni bir kural yazıldı. Halk sağlığı başta olmak üzere tıp, sosyal bilimler ve tarih için de uyarlamaları vardır.
+
+**Birlikte kullanılması önerilen skill:** Türkçe metinlerde son metni [aynen](https://github.com/drmehmetfarukucum/aynen) ile işlemeniz önerilir. aynen metni yapay zekâ izlerinden arındırır, söylediğini ise aynen korur ve anlam denetiminden geçirir. Denetimden geçmiş bir metne uygulandığında değişen cümleleri bir kez daha bağımsız okumadan geçirmek iyi olur.
 
 ## Ne yapar, ne yapmaz
 
