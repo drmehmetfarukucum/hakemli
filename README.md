@@ -9,7 +9,7 @@ Hakemli, tez, makale ve derleme yazımını Claude ile, hakemli bir derginin iş
 
 Skill, 72 bin kelimelik gerçek bir hukuk incelemesi yazılırken geliştirildi; orada karşılaşılan her hata için yeni bir kural yazıldı. Halk sağlığı başta olmak üzere tıp, sosyal bilimler ve tarih için de uyarlamaları vardır.
 
-**Birlikte kullanılması önerilen skill:** Türkçe metinlerde son metni [aynen](https://github.com/drmehmetfarukucum/aynen) ile işlemeniz önerilir. aynen metni yapay zekâ izlerinden arındırır, söylediğini ise aynen korur ve anlam denetiminden geçirir. Denetimden geçmiş bir metne uygulandığında değişen cümleleri bir kez daha bağımsız okumadan geçirmek iyi olur.
+**Birlikte kullanılması önerilen skill:** Türkçe metinlerde son metni [Aynen](https://github.com/drmehmetfarukucum/aynen) skill'iyle işlemeniz önerilir. Aynen, metni yapay zekâ izlerinden arındırır; söylediğini ise aynen korur ve anlam denetiminden geçirir. Denetimden geçmiş bir metne uygulandığında değişen cümleleri bir kez daha bağımsız okumadan geçirmek iyi olur.
 
 ## Ne yapar, ne yapmaz
 
