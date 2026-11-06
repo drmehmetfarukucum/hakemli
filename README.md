@@ -24,7 +24,7 @@ Skill, 72 bin kelimelik gerçek bir hukuk incelemesi yazılırken geliştirildi;
 **Yapmaz**
 - Metni orkestratörün kendisi yazmaz; denetçiler hazır metin yazmaz.
 - Oturum açmaz, şifre girmez, CAPTCHA aşmaz. Kurumsal kütüphaneye girişi kullanıcı yapar.
-- Dış modellerin (Gemini, ChatGPT, Codex) çıktısını doğrulamadan metne almaz; kişisel veriyi onlara göndermez.
+- Başka yapay zekâ araçlarının (Gemini, ChatGPT, Codex CLI) çıktısını doğrulamadan metne almaz; kişisel veriyi onlara göndermez.
 
 ## Nasıl çalışır
 
@@ -46,7 +46,7 @@ Ayrıntılar `references/protokol.md` dosyasındadır.
 |---|---|---|
 | Temel | Claude Code, web araması, açık erişim | Bütün süreç çalışır. Ücretli kaynakların çoğu özetten doğrulanır; bu Sınırlılıklar'a yazılır. |
 | Önerilen | + Claude in Chrome uzantısı ve kurumsal kütüphane erişimi | Kaynaklar tam metinden okunur ve denetlenir. Kalite farkının asıl kaynağı budur. |
-| Genişletilmiş | + Gemini, ChatGPT, Codex, Microsoft Word | İkinci görüş, model kalibrasyonu, içindekiler sayfa numaralı Word ve PDF. Yoksa hiçbir adım eksik kalmaz. |
+| Genişletilmiş | + Gemini, ChatGPT, Codex CLI, Microsoft Word | İkinci görüş, model kalibrasyonu, içindekiler sayfa numaralı Word ve PDF. Yoksa hiçbir adım eksik kalmaz. |
 
 ## Kurulum
 
